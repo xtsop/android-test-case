@@ -1,0 +1,15 @@
+# ninja log v5
+0	1538	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	5b6c01ff5b729508
+1539	1702	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/x86/libhello-libs.so	6f3b3ab27236766c
+4	1636	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	5b6c01ff5b729508
+1636	1788	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/x86/libhello-libs.so	6f3b3ab27236766c
+4	1584	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	5b6c01ff5b729508
+1584	1789	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/x86/libhello-libs.so	6f3b3ab27236766c
+4	1328	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	5b6c01ff5b729508
+1328	1511	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/x86/libhello-libs.so	6f3b3ab27236766c
+2	1810	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	5b6c01ff5b729508
+1810	2002	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/x86/libhello-libs.so	6f3b3ab27236766c
+4	1114	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	5b6c01ff5b729508
+1114	1282	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/x86/libhello-libs.so	6f3b3ab27236766c
+4	7585	0	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	5b6c01ff5b729508
+7585	9133	0	/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/x86/libhello-libs.so	6f3b3ab27236766c
