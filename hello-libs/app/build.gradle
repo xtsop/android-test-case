@@ -20,11 +20,11 @@ android {
                         '-DOPENSSL_LIBRARIES=../distribution/openssl/lib'
             }
         }
-
+        // added by RS
+        /*
         jackOptions {
             enabled true
-        }
-
+        } */
     }
     buildTypes {
         release {
@@ -46,14 +46,16 @@ android {
     }
 }
 
+// added by RS
+/*
 configurations {
     iq
-}
+}*/
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
 
-    def supportVersion = '25.3.1'
+    def supportVersion = '25.2.0' // '25.3.1'
     compile "com.android.support:appcompat-v7:$supportVersion"
     compile "com.android.support:support-v4:$supportVersion"
     compile "com.android.support:design:$supportVersion"
@@ -67,9 +69,11 @@ dependencies {
     // and also uncommented out the one in settings.gradle
     // after lib is generated, just comment them out again
 //        compile project(':gen-libs')
-    iq fileTree(dir: "/opt/IQ_CLI/", include: '*.jar') // added by RS
+    // iq fileTree(dir: "/opt/IQ_CLI/", include: '*.jar') // added by RS
 }
 
+// all added by RS
+/*
 ext.iqScanDir = 'build/lib'
 task copyCompileDependencies(type: Copy) {
     into iqScanDir
@@ -88,3 +92,4 @@ task iqScan(type: JavaExec) {
             iqScanDir
 }
 iqScan.dependsOn 'copyCompileDependencies'
+*/
