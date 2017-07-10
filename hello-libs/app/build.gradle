@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion = 25
-    buildToolsVersion = '25.0.2'
+    compileSdkVersion = 26 // 25
+    buildToolsVersion = '26.0.0' //'25.0.2'
 
     defaultConfig {
         applicationId = 'com.example.hellolibs'
@@ -41,9 +41,13 @@ android {
     }
 }
 
+configurations {
+    iq
+}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:appcompat-v7:26.0.0' //'com.android.support:appcompat-v7:25.2.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.1'
     compile 'com.google.code.gson:gson:1.7.2'
     compile 'com.squareup.retrofit:retrofit:1.1.0'
@@ -52,4 +56,24 @@ dependencies {
     // and also uncommented out the one in settings.gradle
     // after lib is generated, just comment them out again
 //        compile project(':gen-libs')
+    iq fileTree(dir: "/opt/IQ_CLI/", include: '*.jar') // added by RS
 }
+
+ext.iqScanDir = 'build/lib'
+task copyCompileDependencies(type: Copy) {
+    into iqScanDir
+    from configurations.compile
+}
+
+task iqScan(type: JavaExec) {
+    classpath = files(configurations.iq.asPath)
+
+    main = 'com.sonatype.insight.scan.cli.PolicyEvaluatorCli'
+
+    // arguments to pass to the IQ CLI
+    args '-s', 'http://localhost:8070',
+            '-i', 'AND1',
+            '-a', "gradle_user:Dog1",
+            iqScanDir
+}
+iqScan.dependsOn 'copyCompileDependencies'
