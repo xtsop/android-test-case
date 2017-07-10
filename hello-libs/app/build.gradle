@@ -20,6 +20,11 @@ android {
                         '-DOPENSSL_LIBRARIES=../distribution/openssl/lib'
             }
         }
+
+        jackOptions {
+            enabled true
+        }
+
     }
     buildTypes {
         release {
