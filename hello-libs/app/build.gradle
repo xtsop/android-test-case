@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion = 26 // 25
-    buildToolsVersion = '26.0.0' //'25.0.2'
+    compileSdkVersion =  25
+    buildToolsVersion = '25.0.2'
 
     defaultConfig {
         applicationId = 'com.example.hellolibs'
@@ -47,7 +47,13 @@ configurations {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    //compile 'com.android.support:appcompat-v7:26.0.0' //'com.android.support:appcompat-v7:25.2.0'
+
+    def supportVersion = '25.3.1'
+    compile "com.android.support:appcompat-v7:$supportVersion"
+    compile "com.android.support:support-v4:$supportVersion"
+    compile "com.android.support:design:$supportVersion"
+
+    //compile 'com.android.support:appcompat-v7:25.3.1' //'com.android.support:appcompat-v7:25.2.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.1'
     compile 'com.google.code.gson:gson:1.7.2'
     compile 'com.squareup.retrofit:retrofit:1.1.0'
