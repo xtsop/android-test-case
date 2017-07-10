@@ -2,9 +2,5 @@
     {
         "merged": "/Users/xtsop/Downloads/android-test-case/hello-libs/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/Users/xtsop/Downloads/android-test-case/hello-libs/app/src/main/res/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/xtsop/Development/android-ndk/hello-libs/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/xtsop/Development/android-ndk/hello-libs/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }
 ]
