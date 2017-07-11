@@ -46,12 +46,6 @@ android {
     }
 }
 
-// added by RS
-/*
-configurations {
-    iq
-}*/
-
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
 
@@ -65,31 +59,5 @@ dependencies {
     compile 'com.google.code.gson:gson:1.7.2'
     compile 'com.squareup.retrofit:retrofit:1.1.0'
     compile 'org.bouncycastle:bcprov-jdk15on:1.47'
-    // uncomment out this one to generate lib binaries,
-    // and also uncommented out the one in settings.gradle
-    // after lib is generated, just comment them out again
-//        compile project(':gen-libs')
-    // iq fileTree(dir: "/opt/IQ_CLI/", include: '*.jar') // added by RS
 }
 
-// all added by RS
-/*
-ext.iqScanDir = 'build/lib'
-task copyCompileDependencies(type: Copy) {
-    into iqScanDir
-    from configurations.compile
-}
-
-task iqScan(type: JavaExec) {
-    classpath = files(configurations.iq.asPath)
-
-    main = 'com.sonatype.insight.scan.cli.PolicyEvaluatorCli'
-
-    // arguments to pass to the IQ CLI
-    args '-s', 'http://localhost:8070',
-            '-i', 'AND1',
-            '-a', "gradle_user:Dog1",
-            iqScanDir
-}
-iqScan.dependsOn 'copyCompileDependencies'
-*/
