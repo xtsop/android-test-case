@@ -41,6 +41,10 @@ android {
     }
 }
 
+configurations {
+    iq
+}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
 
