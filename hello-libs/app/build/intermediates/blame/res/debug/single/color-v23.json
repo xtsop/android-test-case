@@ -24,6 +24,10 @@
         "source": "/Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/res/color-v23/abc_tint_switch_thumb.xml"
     },
     {
+        "merged": "/Users/xtsop/Downloads/android-test-case/hello-libs/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/xtsop/.android/build-cache/127871066c9884a57bdf4963af6529c8d9e4236d/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/Users/xtsop/Downloads/android-test-case/hello-libs/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
         "source": "/Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/res/color-v23/abc_tint_spinner.xml"
     },

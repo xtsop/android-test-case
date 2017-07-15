@@ -15,14 +15,16 @@ ADDED from /Users/xtsop/Downloads/android-test-case/hello-libs/app/src/main/Andr
 		INJECTED from /Users/xtsop/Downloads/android-test-case/hello-libs/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/xtsop/Downloads/android-test-case/hello-libs/app/src/main/AndroidManifest.xml:5:5-18:19
+MERGED from [com.android.support:design:25.2.0] /Users/xtsop/.android/build-cache/127871066c9884a57bdf4963af6529c8d9e4236d/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/xtsop/.android/build-cache/2b29c5eefd86f9f05ec1e17b4aee44ecf5e2454d/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/xtsop/.android/build-cache/5c68e461c24b98c59e1d19db093859997e631192/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] /Users/xtsop/.android/build-cache/e2127497120de36cdc4acdd96a5612dbdc5b1293/output/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:25.2.0] /Users/xtsop/.android/build-cache/64f152ee057b213e4ed2272e5d35db46c39e8483/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.2.0] /Users/xtsop/.android/build-cache/74183c8f34279f78188f201e694e2e4b619e4d2c/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-media-compat:25.2.0] /Users/xtsop/.android/build-cache/5bf14b2d5301cbc60a9176866e30a8ef10251911/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-ui:25.2.0] /Users/xtsop/.android/build-cache/a28ad87318a7ea671cb44b8ffa747986f8e7e0ff/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-utils:25.2.0] /Users/xtsop/.android/build-cache/e286ab5dd71eeeff358a525040364a7f28955500/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/xtsop/.android/build-cache/2b29c5eefd86f9f05ec1e17b4aee44ecf5e2454d/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/xtsop/.android/build-cache/5c68e461c24b98c59e1d19db093859997e631192/output/AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:25.2.0] /Users/xtsop/.android/build-cache/d0199d18d3081ec1c6f750933be6a5055eb8eee8/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/xtsop/.android/build-cache/6761c799f79a8f19d4e901e3a48963103b6135e8/output/AndroidManifest.xml:9:5-20
 	android:label
@@ -51,18 +53,21 @@ ADDED from /Users/xtsop/Downloads/android-test-case/hello-libs/app/src/main/Andr
 		ADDED from /Users/xtsop/Downloads/android-test-case/hello-libs/app/src/main/AndroidManifest.xml:15:27-74
 uses-sdk
 INJECTED from /Users/xtsop/Downloads/android-test-case/hello-libs/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.2.0] /Users/xtsop/.android/build-cache/127871066c9884a57bdf4963af6529c8d9e4236d/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/xtsop/.android/build-cache/2b29c5eefd86f9f05ec1e17b4aee44ecf5e2454d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/xtsop/.android/build-cache/5c68e461c24b98c59e1d19db093859997e631192/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/xtsop/.android/build-cache/bdc65572321dee9b58aa36c6ed59525bf4c6ae7d/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] /Users/xtsop/.android/build-cache/e2127497120de36cdc4acdd96a5612dbdc5b1293/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.2.0] /Users/xtsop/.android/build-cache/64f152ee057b213e4ed2272e5d35db46c39e8483/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.2.0] /Users/xtsop/.android/build-cache/74183c8f34279f78188f201e694e2e4b619e4d2c/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.2.0] /Users/xtsop/.android/build-cache/5bf14b2d5301cbc60a9176866e30a8ef10251911/output/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.2.0] /Users/xtsop/.android/build-cache/a28ad87318a7ea671cb44b8ffa747986f8e7e0ff/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.2.0] /Users/xtsop/.android/build-cache/e286ab5dd71eeeff358a525040364a7f28955500/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/xtsop/.android/build-cache/2b29c5eefd86f9f05ec1e17b4aee44ecf5e2454d/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/xtsop/.android/build-cache/5c68e461c24b98c59e1d19db093859997e631192/output/AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:support-compat:25.2.0] /Users/xtsop/.android/build-cache/d0199d18d3081ec1c6f750933be6a5055eb8eee8/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/xtsop/.android/build-cache/6761c799f79a8f19d4e901e3a48963103b6135e8/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.2.0] /Users/xtsop/.android/build-cache/75421b89824a6b8bd72cf2220823419eaab7e1fe/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.2.0] /Users/xtsop/.android/build-cache/127871066c9884a57bdf4963af6529c8d9e4236d/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/xtsop/Downloads/android-test-case/hello-libs/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/xtsop/Downloads/android-test-case/hello-libs/app/src/main/AndroidManifest.xml
